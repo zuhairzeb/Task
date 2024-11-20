@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #303030;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.resume-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resume-header h1 {
+    font-size: 2.5em;
+    color: blueviolet;
+}
+
+.resume-header p {
+    font-size: 1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+.resume-header a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.resume-header a:hover {
+    text-decoration: underline;
+}
+
+/* Summary Section */
+.summary {
+    margin-bottom: 30px;
+}
+
+.summary h2 {
+    font-size: 1.8em;
+    color: #4b0082;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #646464;
+    padding-bottom: 5px;
+}
+
+.summary p {
+    font-size: 1em;
+    color: #444;
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience h2 {
+    font-size: 1.8em;
+    color: #4b0082;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.experience-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.experience-item span {
+    font-size: 0.9em;
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.experience-item li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #444;
+}
+
+/* Education Section */
+.education h2 {
+    font-size: 1.8em;
+    color: #4b0082;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.education-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.education-item span {
+    font-size: 0.9em;
+    color: #777;
+    display: block;
+}
+
+/* Skills Section */
+.skills h2 {
+    font-size: 1.8em;
+    color: #4b0082;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li {
+    background-color: #513963;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 0.95em;
+}
+
+/* Footer Section */
+.resume-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.resume-footer a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.resume-footer a:hover {
+    text-decoration: underline;
+}
